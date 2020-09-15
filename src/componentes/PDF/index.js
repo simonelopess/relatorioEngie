@@ -13,7 +13,7 @@ class Header extends React.Component {
     return (
     <>   
        <img src={logo}/>
-         <h1>{this.props.h1}</h1>
+         <h1>{this.props.titulo}</h1>
          <p>{this.props.paragrafo}</p>
     </>
     )
@@ -28,7 +28,7 @@ class Index extends React.Component {
         <div className="container">
           <header className="header">
             <Header
-               h1="Relatório de Desagração de Carga"
+               titulo="Relatório de Desagração de Carga"
                paragrafo="Abaixo você pode ver os detalhes de desagregação de carga para sua 
                           unidade em Julho de 2019."  
             />
